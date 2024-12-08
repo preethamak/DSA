@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int ar[10];
     cout<<&ar[10]<<endl;
-    cout<<&ar[2];
+    cout<<&ar[3];
     int temp[10];
     cout<< sizeof(temp) <<endl;
     int *p=&temp[0];
