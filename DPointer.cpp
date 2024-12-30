@@ -9,7 +9,7 @@ int main(){
         arr[i]=new int[n];//assining done
     }
     for(int i=0;i<=n;i++){
-        for(int j=0;j<=n;j++){
+        for(int j=1;j<=n+1;j++){
             cin>>arr[i][j];
         }
     }
