@@ -8,7 +8,7 @@ public:
         int end = nums.size() - 1;
         int st = 0;
         
-        while (st < end) {
+        while (st<end) {
             int mid = st + (end - st) / 2; // Calculate mid inside the loop
             if (nums[mid] > nums[mid + 1]) {
                 end = mid;
